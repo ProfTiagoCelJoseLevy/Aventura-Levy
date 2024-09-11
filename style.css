@@ -1,0 +1,47 @@
+body {
+    background-color: #71ed64;
+    color: #3B3B3B;
+    font-family: "Playwrite CU", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-size: 15px;
+}
+
+button {
+    background-color: #24821a;
+    color: white;
+    font-family: "Playwrite CU", system-ui;
+    padding: 10px 20px;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.passo {
+    display: none;
+    text-align: center; /* Centraliza o conteúdo dentro de cada "passo" */
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    max-width: 80%;
+    align-items: center;
+    text-align: center; /* Centraliza os botões dentro do "main" */
+}
+
+img{
+
+max-width: 300px;
+}
+
+p{
+    font-size: 25px;
+}

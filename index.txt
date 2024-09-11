@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma aventura pelo Levy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+
+
+
+
+
+        <div class="passo ativo" id="passo-0">
+            <p>
+                Um dia desses, na Escola Coronel José Levy você estava precisando de fita adesiva. Boatos diziam que a fita adesiva estaria na Sala 02 ou na Sala de Leitura
+            </p>
+            <img src="fitaadesiva.png" alt="">
+            <button class="btn-proximo" data-proximo = "1">Sala 02</button>
+            <button class="btn-proximo" data-proximo = "2">Sala de Leitura</button>
+        </div>
+
+
+
+        <div class="passo" id="passo-1">
+            <p>
+                Na Sala 02 você descobre que a fita adesiva não está lá. Mas um dos alunos daquela sala te oferece um tubo de cola.
+            </p>
+            <button class="btn-proximo" data-proximo = "3">Você pega o tubo de cola emprestado</button>
+            <button class="btn-proximo" data-proximo = "2">Você continua procurando a fita e vai para a Sala de leitura.</button>
+        </div>
+
+
+
+
+        <div class="passo" id="passo-2">
+            <p>
+               Na sala de leitura você descobre que a fita adesiva foi levada por algum funcionário da escola que pode ter levado para a secretaria ou para a sala da gestão.
+               O que você faz?
+            </p>
+            <button class="btn-proximo" data-proximo = "4">Vai para a secretaria</button>
+            <button class="btn-proximo" data-proximo = "5">Vai para a Sala da gestão.</button>
+        </div>
+
+
+
+        <div class="passo" id="passo-3">
+            <p>
+                Você faz uma melequeira danada com o tubo de cola e entrega um trabalho escolar todo cheio de garranchos e sujeira.
+            </p>
+         
+        </div>
+
+
+        <div class="passo" id="passo-4">
+            <p>
+                Na secretaria, a Bia te diz que a fita adesiva está no laboratório.
+            </p>
+            <button class="btn-proximo" data-proximo = "6">Vá para o Laboratório</button>
+
+        </div>
+
+
+
+        <div class="passo" id="passo-5">
+            <p>
+               Você pergunta para a D. Erica sobre o rolo de fita adesiva. Mas antes de te responder, a D. Erica diz que você não entregou as atividades da plataforma "Tarefas" e te segura na sala da Gestão até você fazer todas as atividades.
+            </p>
+            <p>:( :( Você perdeu :( :(</p>
+        </div>
+
+
+
+        <div class="passo" id="passo-6">
+            <p>
+                No Laboratório você finalmente encontra a fita adesiva!!!!
+            </p>
+          
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
